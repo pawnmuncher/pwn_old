@@ -3,10 +3,64 @@ layout: default
 ---
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="cyber-consultant" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cyber-consultant?trk=profile-badge">M Harrison</a></div>
               
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
+
+### What about emoji?
+
+```py
+#!/usr/bin/env python3
+
+from pwn import *
+import re
+
+r = remote("46.101.22.121",30437)
+r.recv()
+r.sendline("1")
+d = r.recv().decode()
+e = r.recv().decode()
+print(d)
+print(e)
+
+emojis = {
+"🌞" : re.findall("🌞 -> (\d+)",d)[0],
+"🍨" : re.findall("🍨 -> (\d+)",e)[0],
+"❌" : re.findall("❌ -> (\d+)",e)[0],
+"🍪" : re.findall("🍪 -> (\d+)",e)[0],
+"🔥" : re.findall("🔥 -> (\d+)",e)[0],
+"⛔" : re.findall("⛔ -> (\d+)",e)[0],
+"🍧" : re.findall("🍧 -> (\d+)",e)[0],
+"👺" : re.findall("👺 -> (\d+)",e)[0],
+"👾" : re.findall("👾 -> (\d+)",e)[0],
+"🦄" : re.findall("🦄 -> (\d+)",e)[0]
+}
+
+print(str(emojis))
+
+r.sendline("2")
+
+for i in range(1,501):
+	ques = r.recv().decode()
+
+	print(ques)
+
+	equation = ''
+	for c in ques:
+		if c in emojis:
+			equation = equation + ' ' + emojis[c]
+		elif c in ['*','-','+','-']:
+			equation = equation + ' ' + c
+
+	res = eval(equation)
+	print(res)
+	r.sendline(str(res))
+
+flag = r.recv().decode()
+
+print(flag)
+```
+### What about BOF?
 
 ```py
 from pwn import *
