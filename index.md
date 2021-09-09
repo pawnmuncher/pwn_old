@@ -3,7 +3,7 @@ layout: default
 ---
 <a itemprop="image" href="https://avatars.githubusercontent.com/u/85509400?v=4"><img style="height:auto;" alt="Avatar" width="260" height="260" class="avatar avatar-user width-full border color-bg-primary" src="https://avatars.githubusercontent.com/u/85509400?v=4"></a>
 
-<script src="https://tryhackme.com/badge/60599"></script> <script src="https://www.hackthebox.eu/badge/277042"></script>
+|<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
