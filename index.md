@@ -28,3 +28,47 @@ data = p.recvall()
 print(data)
 
 ```
+
+What about NTP you ask?
+```py
+import struct
+import socket
+import time
+import datetime
+
+#  lib8time.cityinthe.cloud port 2038
+# Create a UDP socket
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+# Bind the socket to the port
+server_address = ('lib8time.cityinthe.cloud', 2038)
+
+# Calculate current time
+t = int(time.time())
+
+# Create the packet data
+packet = struct.pack('>hiqq',4919,1,t,int((time.time() % 1)*1000000))
+
+# Send packet and get response
+sock.sendto(packet, server_address)
+data, address = sock.recvfrom(4096)
+
+# Unpack the response
+r = struct.unpack('>hiqqqq',bytes(data))
+print(r)
+
+# Parse the response
+ct_s = r[2]
+st_s = r[4]
+ct_m = r[3]
+st_m = r[5]
+
+# Parse the time and convert to readable format in UTC
+client_time = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(ct_s))
+server_time = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(st_s))
+print("Client time now (UTC):{}".format(client_time))
+print("Server time now (UTC):{}".format(server_time))
+
+# Calcualte the difference in Hour
+print("Hours difference: {}".format((st_s-ct_s)/3600))
+```
