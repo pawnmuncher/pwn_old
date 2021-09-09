@@ -88,7 +88,7 @@ print(data)
 
 ```
 
-What about NTP you ask?
+### What about NTP you ask?
 ```py
 import struct
 import socket
