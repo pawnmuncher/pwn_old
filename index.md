@@ -7,6 +7,9 @@ layout: default
               
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
+[Hack the Box Write Ups](./htb.md)
+[Try Hack Me Write Ups](./thm.md)
+
 ### What about emoji?
 
 ```py
