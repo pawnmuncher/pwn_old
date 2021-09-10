@@ -85,7 +85,6 @@ payload += secret
 p.sendline(payload)
 data = p.recvall()
 print(data)
-
 ```
 
 ### What about NTP you ask?
