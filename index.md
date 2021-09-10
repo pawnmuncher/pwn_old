@@ -63,6 +63,7 @@ print(flag)
 ### What about BOF?
 
 ```py
+#!/usr/bin/env python3
 from pwn import *
 
 #p = process('./easyrop')
@@ -90,6 +91,7 @@ print(data)
 
 ### What about NTP you ask?
 ```py
+#!/usr/bin/env python3
 import struct
 import socket
 import time
