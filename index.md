@@ -1,10 +1,6 @@
 ---
 layout: default
----
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="cyber-consultant" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cyber-consultant?trk=profile-badge">M Harrison</a></div>
-              
+---            
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
 [Hack the Box Write Ups](./htb.md)
@@ -136,3 +132,10 @@ print("Server time now (UTC):{}".format(server_time))
 # Calcualte the difference in Hour
 print("Hours difference: {}".format((st_s-ct_s)/3600))
 ```
+
+<div disply=text-align:center>
+		<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+		<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="cyber-consultant" data-version="v1">
+		<a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cyber-consultant?trk=profile-badge">M Harrison</a>
+		</div>
+</div>
