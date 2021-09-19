@@ -3,6 +3,7 @@ layout: default
 ---          
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
+# Tryhackme "Alfred"
 * * *
 
 ### Step one: Add the IP to your /etc/hosts file
