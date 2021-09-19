@@ -22,11 +22,11 @@ layout: default
 
 * * *
 
-We know this is a jenkins exploit, so no need to indepth enumeration.
+We know this is a jenkins exploit, so no need to do much indepth enumeration.
 
 `nmap alfred.thm`
 
-<img src="img/78b25b884d31475fa2b05b68607348c0.png?t=1601661674178" alt="mjh3.com" width="577" height="214" class="jop-noMdConv">10.searchjenkins
+<img src="img/78b25b884d31475fa2b05b68607348c0.png?t=1601661674178" alt="mjh3.com" width="577" height="214" class="jop-noMdConv">
 
 * * *
 
