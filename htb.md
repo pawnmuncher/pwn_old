@@ -81,7 +81,7 @@ So here is my path to Pwnage!
 
 Lets migrate so we can traverse all directories as admin.
 
-At the meterpreter prompt, enter the getsystem command to list all running processes by name.
+At the meterpreter prompt, enter the getsystem followed by the ps commands to get access to the list all running processes by name.
 
 <img src="img/18076d61e83e49b8bc2ba26f1f55d1ad.png?t=1601664759531" alt="mjh3.com" width="914" height="482" class="jop-noMdConv">
 
