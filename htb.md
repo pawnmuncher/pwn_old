@@ -3,19 +3,6 @@ layout: default
 ---          
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
-Welcome to my first official writeup.  This is for all the other users that get stumped when the metasploit reverse shell does not work as descirbed by the instructions in the tryhackme room **Alfred**.
-
-This is not a dig on the author of the room, more of a personal experience.  I am sure others have had similar experiences to mine, and others had no issues following the instructions and getting the flags.
-
-I only do this because of how frustrating this supposed "walk through" box became when trying to follow the instructions.  The rooms guiding was filled with a instructions that seemed to work at some point in the past, and seemed to never work for others.  I followed along, and worked through the endless creation of exploits, setting up a python server, serving the exploits to the Jenkins projects configuration, running the build command in jenkins, etc, etc .....  And when it came time to pop the reverse shell with metasploit, it would just simply not work for me.
-
-While I really enjoyed getting to learn more about Jenkins, and the care the author of the room took in guiding us through the room but II really just wanted to pwn it!
-
-- I knew it was pwnable in a more efficient manner
-- I spent the time, so please enjoy and leave me some comments on how you solved this box as gitlab issues.
-
-> Please note: I do not show the flags, and you will still need to follow the authors instructions to get some of the answers.  I am just showing you how to get the flags!
-
 * * *
 
 ### Step one: Add the IP to your /etc/hosts file
