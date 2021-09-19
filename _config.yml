@@ -1,7 +1,7 @@
 #remote_theme: pages-themes/hacker@v0.2.0
 remote_theme: luxedo/jekyll-theme-potato-hacker
 plugins:
-- jekyll-remote-theme
+#- jekyll-remote-theme
 #theme: jekyll-theme-hacker
 
 title: [PawnMuncher's Munchies]
