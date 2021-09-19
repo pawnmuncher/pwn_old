@@ -63,8 +63,7 @@ So here is my path to Pwnage!
 - `set LPORT 4444` , it is usually defaluted to that port.  You can use whatever port you like, just not the known ports.run
     
 -   
-    <img src="img/
-	fe4425db59a74cff9e71ff877a637723.png?t=1601660815466" alt="mjh3.com" width="879" height="476" class="jop-noMdConv">options
+    <img src="img/fe4425db59a74cff9e71ff877a637723.png?t=1601660815466" alt="mjh3.com" width="879" height="476" class="jop-noMdConv">options
     
 - now type `run` or `exploit`
     
