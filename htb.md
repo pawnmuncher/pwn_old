@@ -34,7 +34,7 @@ We know this is a jenkins exploit, so no need to do much indepth enumeration.
 
 * * *
 
-From here, the path is quick and easy.  You need the default Jenkins credentials (google for the Jenkins documentation).
+From here, the path is quick and easy.  You need the default Jenkins credentials.  Google for the Jenkins documentation, or you can install pass-station via apt or yum, pacman, etc.
 
 So here is my path to Pwnage!
 
