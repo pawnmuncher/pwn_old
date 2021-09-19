@@ -1,5 +1,5 @@
 ---
-layout: blog-index
+layout: default
 ---            
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
