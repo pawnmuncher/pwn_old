@@ -128,7 +128,7 @@ server_time = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(st_s))
 print("Client time now (UTC):{}".format(client_time))
 print("Server time now (UTC):{}".format(server_time))
 
-# Calcualte the difference in Hour
+# Calculate the difference in Hours
 print("Hours difference: {}".format((st_s-ct_s)/3600))
 ```
 
