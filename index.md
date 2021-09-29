@@ -1,3 +1,8 @@
+<head>
+<meta property="og:image" content="https://www.mjh3.com/img/18076d61e83e49b8bc2ba26f1f55d1ad.png">
+</head>
+
+
 ---
 layout: default
 ---            
