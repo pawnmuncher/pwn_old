@@ -1,11 +1,6 @@
 ---
 layout: default
----
-<head>
-<meta property="og:image" content="https://www.mjh3.com/img/18076d61e83e49b8bc2ba26f1f55d1ad.png">
-</head>
-
-
+---            
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
 [Hack the Box Write Ups](./htb.md)
