@@ -135,3 +135,84 @@ print("Hours difference: {}".format((st_s-ct_s)/3600))
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="cyber-consultant" data-version="v1">
 </div>
+
+<h3 id="useful-links">Useful links</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Link</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://tryhackme.com">TryHackMe</a></td>
+      <td>TryHackMe - Learn Penetration Testing Skills</td>
+    </tr>
+    <tr>
+      <td><a href="https://hackthebox.eu">HackTheBox</a></td>
+      <td>HackTheBox - Learn Penetration Testing Skills</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://book.hacktricks.xyz/">HackTricks</a></td>
+      <td>Tricks and Techniques</td>
+    </tr>
+    <tr>
+      <td><a href="https://gtfobins.github.io">GTFOBins</a></td>
+      <td>Quick Shell One-liners</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.revshells.com">RevShells</a></td>
+      <td>Reverse Shell Command Generator</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://pentest.ws">PenTest.WS</a></td>
+      <td>Engagement Utility</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://explainshell.com">ExplainShell</a></td>
+      <td>Bash Shell Command Explanation</td>
+    </tr>
+    <tr>
+      <td><a href="https://ss64.com">SS64</a></td>
+      <td>Commandline Reference</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://crackstation.net">CrackStation</a></td>
+      <td>Online Hash Cracking</td>
+    </tr>
+    <tr>
+      <td><a href="https://gchq.github.io/CyberChef">CyberChef</a></td>
+      <td>The Cyber Swiss Army Knife for analysing/encoding/decoding data</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.dcode.fr/en">dCode</a></td>
+      <td>dCode is a toolkit website for decryption, ciphertexts</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://alomancy.gitbook.io/guides/">Guides</a></td>
+      <td>In Depth Guides by <a href="https://www.twitch.tv/alomancy">Alomancy</a></td>
+    </tr>
+  </tbody>
+</table>
