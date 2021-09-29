@@ -6,6 +6,6 @@ plugins:
 title: [PawnMuncher's Munchies]
 description: [musings of a cybersecurity consultant]
 
-thumb_img:"https://www.mjh3.com/img/18076d61e83e49b8bc2ba26f1f55d1ad.png"
+thumb_img: ["https://www.mjh3.com/img/18076d61e83e49b8bc2ba26f1f55d1ad.png"]
 
 
