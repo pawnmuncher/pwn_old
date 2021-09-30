@@ -12,5 +12,5 @@ defaults:
       image: /img/fowlowl2.png
       title: [PawnMuncher's Munchies]
       description: [musings of a cybersecurity consultant]
-      image: /img/fowlowl2.png
-      thumb_img: "https://www.mjh3.com/img/18076d61e83e49b8bc2ba26f1f55d1ad.png"
+      #image: /img/fowlowl2.png
+      thumb_img: /img/18076d61e83e49b8bc2ba26f1f55d1ad.png
