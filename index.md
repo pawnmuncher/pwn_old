@@ -5,6 +5,7 @@ layout: default
 
 [Hack the Box Write Ups](./htb.md)
 [Try Hack Me Write Ups](./thm.md)
+[Cool FOrtune Teller in JS](./fortune.html)
 
 ### What about emoji?
 
