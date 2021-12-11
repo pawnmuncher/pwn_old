@@ -4,8 +4,8 @@ layout: default
 |<script src="https://tryhackme.com/badge/60599"></script> |<script src="https://www.hackthebox.eu/badge/277042"></script>|
 
 [Hack the Box Write Ups](./htb.md)
-[Try Hack Me Write Ups](./thm.md)
-[Cool FOrtune Teller in JS](./fortune.html)
+  [Try Hack Me Write Ups](./thm.md)
+  [Cool Fortune Teller in JS](./fortune.html)
 
 ### What about emoji?
 
