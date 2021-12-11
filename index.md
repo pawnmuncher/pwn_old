@@ -220,4 +220,4 @@ print("Hours difference: {}".format((st_s-ct_s)/3600))
 
 <h3 id="credits">Credits</h3>
 
-<p>Huge shoutout to <a href="https://twitch.tv/chadb_n00b">chadb_n00b</a> and to <a href="https://infosecstreams.github.io/">infosecstreams </a>for starting up and initially maintaining the list!</p>
+<p>Huge shoutout to <a href="https://twitch.tv/chadb_n00b">chadb_n00b</a> and to <a href="https://infosecstreams.github.io/">infosecstreams</a> for starting up and initially maintaining the list!</p>
