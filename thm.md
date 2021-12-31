@@ -51,7 +51,7 @@ So here is my path to Pwnage!
 
 - `set PASSWORD admin`
     
-- `set USERNAME adminrun`
+- `set USERNAME admin`
     
 - `set RHOSTS <ip>` , where ipis the tryhackme IP address of the Alfred room you deployed.
     
