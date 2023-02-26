@@ -1,4 +1,5 @@
-remote_theme: pages-themes/minima@v0.2.0
+theme: minima
+#remote_theme: pages-themes/minima@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-auto-image
