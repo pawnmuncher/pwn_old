@@ -8,7 +8,7 @@ layout: default
 [Cool Fortune Teller in JS](./fortune.html)
 
 # Kusto Query Language
-```kql
+```sql
 SigninLogs
 | where TimeGenerated > ago(120d) and UserDisplayName  contains "_target_user_"
 | where isnotnull(MfaDetail.authDetail)
