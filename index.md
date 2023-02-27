@@ -7,6 +7,37 @@ layout: default
 [Try Hack Me Write Ups](./thm.md)
 [Cool Fortune Teller in JS](./fortune.html)
 
+# Kusto Query Language
+```kql
+SigninLogs
+| where TimeGenerated > ago(120d) and UserDisplayName  contains "_target_user_"
+| where isnotnull(MfaDetail.authDetail)
+| project MfaDetail,LocationDetails, Phone= MfaDetail.authDetail, uName= UserDisplayName,
+          myCity=LocationDetails.city, myGeo=LocationDetails.geoCoordinates,
+          myLat =LocationDetails.geoCoordinates.latitude  
+| project tostring(Phone), tostring(myCity), tostring(myGeo), tostring(myLat)
+
+SigninLogs
+| where TimeGenerated > ago(120d)|where isnotnull(DeviceDetail.operatingSystem) and ResultType  != 0 and isnotnull(MfaDetail)
+| project UserDisplayName, tostring(DeviceDetail.operatingSystem)
+| take 100
+
+SigninLogs
+| where TimeGenerated > ago(120d) and UserDisplayName  contains "_target_user_"
+| where isnotnull(MfaDetail.authMethod)
+| project MfaDetail, UserDisplayName 
+| evaluate bag_unpack(MfaDetail, "MH_")
+|take 100
+
+let UPN = "target_user@binarydefense.com"; 
+let TimeFrame = ago(30d); 
+SigninLogs 
+| where TimeGenerated > TimeFrame
+| where UserPrincipalName =~ UPN
+| summarize FirstSeen = min(TimeGenerated), LastObserved = max(TimeGenerated), SuccessfullCount = count(ResultType = 0), FailureCount = count(ResultType != 0) 
+by UserPrincipalName, IPAddress, Location, tostring(DeviceDetail.deviceId), UserAgent, ClientAppUsed, AppDisplayName
+```
+
 ### What about emoji?
 
 ```py
